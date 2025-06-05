@@ -1,0 +1,153 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 40px;
+  background-color: #f7f7f7;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Ou center para centralizar também verticalmente */
+  min-height: 100vh;
+}
+
+.container {
+  width: 1000px;
+  background: #f7f7f7;
+  padding: 30px;
+  border-radius: 8px;
+  /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);*/
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-top: 20px;
+}
+
+select,
+textarea,
+button {
+  width: 100%;
+  margin-top: 0px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+textarea{
+  resize: vertical;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #2c89e8;
+  color: white;
+  cursor: pointer;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #1e6fc1;
+}
+
+.content {
+  height: 340px;  
+  margin-top: 10px;
+  background-color: white;
+
+  border-radius: 5px;
+}
+
+/*.page {
+            width: 600px;
+            height: 800px;
+            border: 2px solid #000;
+            padding: 20px;
+            box-sizing: border-box;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: repeat(5, 1fr);
+            gap: 10px 20px;
+            margin-top: 20px;
+          }*/
+
+.areaEtiqueta {
+  border: 2px solid #555;
+  border-radius: 10px;
+  background-color: #fff;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+
+.areaEtiqueta:hover {
+  background-color: gainsboro;
+}
+
+.areaEtiqueta.selected {
+  background-color: gainsboro !important;
+}
+
+#modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  max-height: 80vh;
+  overflow-y: auto;
+  box-sizing: border-box;
+  width: 320px;
+  position: relative;
+}
+
+#etiquetas-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.areaEtiqueta {
+  width: 260px;
+  height: 80px;
+  border: 1px solid #aaa;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.areaEtiqueta.selected {
+  background-color: #d0eaff;
+}
+
+#cancelar-btn {
+  margin-top: 20px;
+  width: 300px;
+  height: 40px;
+  background-color: #2196f3;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.borda{
+	height: 340px;  
+  margin-top: 10px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+	border: 1px solid grey;
+}

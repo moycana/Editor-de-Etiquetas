@@ -1,0 +1,130 @@
+{
+  "clientes": [
+    {
+      "id": "BETANIA BA",
+      "ac": "LOGISTICA",
+      "tipo": "COMPROVANTES DE ENTREGA",
+      "nome": "BETANIA LACTEOS S/A",
+      "endereco": "AV JULIO JOSE RODRIGUES, 750. BAIRRO CLEOLANDIA",
+      "cidade": "ITAPETINGA-BA",
+      "cep": "45700-000"
+    },
+    {
+      "id": "ALVOAR NORDESTE",
+      "ac": "LOGISTICA",
+      "tipo": "COMPROVANTES DE ENTREGA",
+      "nome": "ALVOAR LACTEOS NORDESTE S/A",
+      "endereco": "SITIO ALTO DA GLORIA, S/N, ZONA RURAL",
+      "cidade": "NOSSA SENHORA DA GLORIA-SE",
+      "cep": "49680-000"
+    },
+    {
+      "id": "ALVOAR CONTAGEM",
+      "ac": "LOGISTICA",
+      "tipo": "COMPROVANTES DE ENTREGA",
+      "nome": "ALVOAR LACTEOS S/A",
+      "endereco": "RUA JOSE PERMINIO DA SILVIA 230. BAIRRO CINCO",
+      "cidade": "CONTAGEM-MG",
+      "cep": "32341-590"
+    },
+    {
+      "id": "BETANIA CE",
+      "ac": "LOGISTICA",
+      "tipo": "COMPROVANTES DE ENTREGA",
+      "nome": "BETANIA LATICINIOS S/A CE",
+      "endereco": "CE 046 ROD DO CONTORNO, SN, PLANALTO AEROPORTO",
+      "cidade": "MORADA NOVA-CE",
+      "cep": "62940-000"
+    },
+    {
+      "id": "ITAMBE GUANHAES",
+      "ac": "KENIA ",
+      "tipo": "COMPROVANTES DE ENTREGA",
+      "nome": "ITAMBÉ ALIMENTOS ",
+      "endereco": "AV GOVERNADOR MILTON CAMPOS 921. CENTRO",
+      "cidade": "GUANHAES-MG",
+      "cep": "37740-000"
+    },
+    {
+      "id": "ITAMBE CABO DE SANTO AGOSTINHO",
+      "ac": "LOGISTICA",
+      "tipo": "COMPROVANTES DE ENTREGA",
+      "nome": "ITAMBÉ ALIMENTOS ",
+      "endereco": "ROD BR 101 SUL BL D DISTRITO INDUSTRIAL, ST. ESTEVÃO",
+      "cidade": "CABO SANTO AGOSTINHO-PE",
+      "cep": "54503-010"
+    },
+    {
+      "id": "ITAMBE PM",
+      "ac": "CARLOS ALEXANDRE ISIDORO",
+      "tipo": "COMPROVANTES DE ENTREGA",
+      "nome": "ITAMBÉ ALIMENTOS PARA DE MINAS ",
+      "endereco": "RODOVIA BR 262 ANEXO S/N, PATAFUFO",
+      "cidade": "PARA DE MINAS-MG",
+      "cep": "35661-390"
+    },
+    {
+      "id": "ITAMBE SETE LAGOAS",
+      "ac": "RAFAEL OLIVEIRA",
+      "tipo": "COMPROVANTES DE ENTREGA ",
+      "nome": "ITAMBÉ ALIMENTOS ",
+      "endereco": "RUA JOAO ANDRADE 20 SÃO GERALDO",
+      "cidade": "SETE LAGOAS-MG",
+      "cep": "35700-178"
+    },
+    {
+      "id": "ITAMBE ULA",
+      "ac": "LOGISTICA",
+      "tipo": "COMPROVANTES DE ENTREGA ",
+      "nome": "ITAMBÉ ALIMENTOS ",
+      "endereco": "RUA LINEU ANTERINO MARIANO 280, DISTRITO INDUSTRIAL",
+      "cidade": "UBERLANDIA-MG",
+      "cep": "38402-346"
+    },
+    {
+      "id": "NORSAL",
+      "ac": "LOGISTICA",
+      "tipo": "COMPROVANTE DE ENTREGA ",
+      "nome": "NORTE SALINEIRA od. Br 110 – KM 01",
+      "endereco": "ZONA SUBURBANA",
+      "cidade": "AREIA BRANCA-RN",
+      "cep": "59.655-000"
+    },
+    {
+      "id": "ITAMBE SP",
+      "ac": "LOGISTICA",
+      "tipo": "RECIBOS DE DESCARGA E DIARIAS",
+      "nome": "ITAMBE ALIMENTOS - TRANSPORTES E FRETES",
+      "endereco": "RODOVIA ANHANGUERA, KM 26,5. JARAGUA",
+      "cidade": "SAO PAULO-SP",
+      "cep": "05.275.000"
+    },
+    {
+      "id": "PORTO ",
+      "ac": "BRUNA / TAMIRES",
+      "tipo": "COMPROVANTES DE ENTREGA ",
+      "nome": "LATICINIOS PORTO ALEGRE",
+      "endereco": "AV MARIO MARTINS FREITAS 6000 A. ANNA FLORENCIA",
+      "cidade": "PONTE NOVA-MG",
+      "cep": "35432-077"
+    },
+    {
+      "id": "ITAMBE ES",
+      "ac": "TAMIRES MEDEIROS",
+      "tipo": "COMPROVANTES DE ENTREGA",
+      "nome": "ITAMBE ALIMENTOS - LOGISTICA TSPF – ESPIRITO SANTO",
+      "endereco": "RUA AMARILIS, 130, SALA 2, GALPAO 3. PORTO DE CARIACICA",
+      "cidade": "CARIACICA-ES",
+      "cep": "29156-709"
+    },
+    {
+      "id": "ITAMBE MARACANAU",
+      "ac": "DAVID SANTOS / LOGISTICA E FATURAMENTO",
+      "tipo": "COMPROVANTE DE ENTREGA",
+      "nome": "ITAMBE MARACANAU",
+      "endereco": "TRAVESSA 14, 1161 – ALTO ALEGRE II",
+      "cidade": "MARACANAU-CE",
+      "cep": "61.921-540"
+    }
+  ]
+}
