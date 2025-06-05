@@ -13,22 +13,30 @@ Aplicação web para geração e exportação de etiquetas em PDF, com posiciona
 ## 📁 Estrutura do Projeto
 
 ```
-/public/
+/
 ├── index.html
 ├── favicon.ico
 ├── manifest.json
-├── service-worker.js (se usado no root)
+├── README.md
+├── .gitattributes
 
-└── ../src/
-    ├── css/
-    │   └── styles.css
-    ├── js/
-    │   ├── script.js
-    │   ├── html2canvas.min.js
-    │   ├── jspdf.umd.min.js
-    │   └── pdfobject.min.js
-    └── data/
-        └── clientes.json
+├── icons/
+│   ├── icon-192.png
+│   └── icon-512.png
+
+├── src/
+│   ├── css/
+│   │   └── styles.css
+│   │
+│   ├── data/
+│   │   └── clientes.json
+│   │
+│   ├── js/
+│       ├── html2canvas.min.js
+│       ├── jspdf.umd.min.js
+│       ├── pdfobject.min.js
+│       ├── script.js
+│       └── service-worker.js
 ```
 
 ## 🚀 Como Rodar Localmente

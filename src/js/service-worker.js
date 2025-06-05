@@ -2,16 +2,18 @@ const CACHE_NAME = "meu-app-cache-v1";
 const urlsToCache = [
   "/",
   "/index.html",
-  "/styles.css",
-  "/script.js",
+  "/favicon.ico",
+  "/manifest.json",
   "/icons/icon-192.png",
   "/icons/icon-512.png",
-  "/favicon.ico",
-  "clientes.json",
-  "html2canvas.min.js",
-  "jspdf.umd.min.js",
-  "pdfobject.min.js"
+  "/src/css/styles.css",
+  "/src/js/script.js",
+  "/src/js/html2canvas.min.js",
+  "/src/js/jspdf.umd.min.js",
+  "/src/js/pdfobject.min.js",
+  "/src/data/clientes.json"
 ];
+
 
 self.addEventListener("install", event => {
   event.waitUntil(
