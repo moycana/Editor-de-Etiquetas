@@ -7,8 +7,8 @@ Aplicação web para geração e exportação de etiquetas em PDF, com posiciona
 - Visualização e edição de etiquetas no navegador
 - Exportação em PDF com `html2canvas` e `jsPDF`
 - Leitura de dados via `clientes.json`
-- Ícone e manifesto para suporte a PWA (instalável no desktop/mobile)
-- Suporte a impressão em folhas A4 com posicionamento customizável
+- Ícone e manifesto para suporte a PWA
+- Suporte a impressão em etiquetas adesivas com posicionamento customizável
 
 ## 📁 Estrutura do Projeto
 
@@ -47,7 +47,7 @@ Aplicação web para geração e exportação de etiquetas em PDF, com posiciona
    cd editor-etiquetas
    ```
 
-2. Abra o arquivo `public/index.html` em seu navegador.
+2. Abra o arquivo `index.html` em seu navegador.
 
    > 💡 Dica: Use a extensão **Live Server** no VS Code para facilitar o desenvolvimento.
 
