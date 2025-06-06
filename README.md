@@ -1,6 +1,6 @@
 # 📬 Editor de Etiquetas
 
-Aplicação web para geração e exportação de etiquetas em PDF, com posicionamento visual e suporte a dados personalizados. Ideal para uso em logística, transporte e organização de documentos.
+Aplicação web para geração e exportação de etiquetas em PDF, com posicionamento visual e suporte a dados personalizados. Feito para envio de canhotos para clientes.
 
 ## 📦 Funcionalidades
 
