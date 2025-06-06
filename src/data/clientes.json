@@ -125,15 +125,6 @@
       "endereco": "TRAVESSA 14, 1161 – ALTO ALEGRE II",
       "cidade": "MARACANAU-CE",
       "cep": "61.921-540"
-    },
-    {
-      "id": "Teste de Update",
-      "ac": "Teste de Update",
-      "tipo": "Teste de Update",
-      "nome": "Teste de Update",
-      "endereco": "Teste de Update",
-      "cidade": "Teste de Update",
-      "cep": "12345-67"
     }
   ]
 }
