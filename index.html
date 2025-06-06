@@ -1,68 +1,50 @@
 <!DOCTYPE html>
-  <html lang="pt-BR">
-
+<html lang="pt-BR">
   <head>
-      <meta charset="UTF-8">
-      <title>Editor de Etiquetas</title>
-      <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-      <link rel="stylesheet" href="src/css/styles.css">
-      <script src="src/js/jspdf.umd.min.js"></script>
-      <script src="src/js/html2canvas.min.js"></script>
-      <link rel="manifest" href="manifest.json">
-      <meta name="theme-color" content="#000000">
+    <meta charset="UTF-8">
+    <title>Editor de Etiquetas</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="src/css/styles.css">
+    <script src="src/js/jspdf.umd.min.js"></script>
+    <script src="src/js/html2canvas.min.js"></script>
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#000000">
   </head>
-
   <body>
-      <div class="container" id="container">
-          <h2>Editor de Etiquetas</h2>
-
-          <!--<label for="data">Data:</label>
-          <input type="date" id="data">-->
-
-          <label for="destinatario">Destinatário:</label>
-          <select id="dropdownClientes">
-            <option value="">Selecione um cliente</option>
-          </select>
-
-          <!--<label for="autor">Autor:</label>
-          <select id="autor">
-            <option>Artur</option>
-            <option>João</option>
-            <option>Maria</option>
-          </select>-->
-
-          <label for="canhotos">Canhotos (cole os números separados por espaço, vírgula ou enter):</label>
-          <textarea id="canhotos" rows="6" placeholder="Ex: 550100 550101 550108..."></textarea>
-          <label id="alerta" style="color: red;"></label>
-          
-
-		<div class="borda">
-          <div class="content" id="content">
-            <div id="dados-etiqueta"></div>
-            <div id="tabela-canhotos"></div>
-          </div>
-		  </div>
-      <button onclick="verificaPreenchimento()">Gerar PDF</button>
-      </div>
-
-
-      <!-- Modal de seleção de etiqueta -->
-      <div id="modal" style="display: none;">
-        <div id="modal-content">
-          <h3>Selecione a posição da etiqueta</h3>
-          <div id="etiquetas-container">
-            <!-- Etiquetas simuladas -->
-            <div class="areaEtiqueta" data-pos="1"></div>
-            <div class="areaEtiqueta" data-pos="2"></div>
-            <div class="areaEtiqueta" data-pos="3"></div>
-            <div class="areaEtiqueta" data-pos="4"></div>
-            <div class="areaEtiqueta" data-pos="5"></div>
-          </div>
+    <div class="container" id="container">
+      <h2>Editor de Etiquetas</h2>
+      <!--<label for="data">Data:</label><input type="date" id="data">-->
+      <label for="destinatario">Destinatário:</label>
+      <select id="dropdownClientes">
+        <option value="">Selecione um cliente</option>
+      </select>
+      <!--<label for="autor">Autor:</label><select id="autor"><option>Artur</option><option>João</option><option>Maria</option></select>-->
+      <label for="canhotos">Canhotos (cole os números separados por espaço, vírgula ou enter):</label>
+      <textarea id="canhotos" rows="6" placeholder="Ex: 550100 550101 550108..."></textarea>
+      <label id="alerta" style="color: red;"></label>
+      <div class="borda">
+        <div class="content" id="content">
+          <div id="dados-etiqueta"></div>
+          <div id="tabela-canhotos"></div>
         </div>
-        <button id="cancelar-btn" onclick="fecharModal()">Cancelar</button>
       </div>
-
-      <script src="src/js/script.js"></script>
+      <button onclick="verificaPreenchimento()">Gerar PDF</button>
+    </div>
+    <!-- Modal de seleção de etiqueta -->
+    <div id="modal" style="display: none;">
+      <div id="modal-content">
+        <h3>Selecione a posição da etiqueta</h3>
+        <div id="etiquetas-container">
+          <!-- Etiquetas simuladas -->
+          <div class="areaEtiqueta" data-pos="1"></div>
+          <div class="areaEtiqueta" data-pos="2"></div>
+          <div class="areaEtiqueta" data-pos="3"></div>
+          <div class="areaEtiqueta" data-pos="4"></div>
+          <div class="areaEtiqueta" data-pos="5"></div>
+        </div>
+      </div>
+      <button id="cancelar-btn" onclick="fecharModal()">Cancelar</button>
+    </div>
+    <script src="src/js/script.js"></script>
   </body>
-
-  </html>
+</html>
