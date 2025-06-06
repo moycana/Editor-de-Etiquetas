@@ -61,10 +61,6 @@ Aplicação web para geração e exportação de etiquetas em PDF, com posiciona
 
 O projeto inclui suporte para instalação como PWA em dispositivos compatíveis (manifesto + service worker).
 
-## 📄 Licença
-
-Este projeto está licenciado sob a [MIT License](LICENSE).
-
 ---
 
 Desenvolvido com ❤️ e ☕ (principalmente).
