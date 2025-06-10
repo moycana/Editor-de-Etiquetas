@@ -125,6 +125,15 @@
       "endereco": "TRAVESSA 14, 1161 – ALTO ALEGRE II",
       "cidade": "MARACANAU-CE",
       "cep": "61.921-540"
+    },
+    {
+      "id": "NOVA MIX",
+      "ac": "MOISES",
+      "tipo": "COMPROVANTE DE ENTREGA",
+      "nome": "NOVA MIX INDUSTRIA E COMERCIO LTDA",
+      "endereco": "SÍTIO SANTO ANTONIO - NR SN PATRÍCIOS",
+      "cidade": "CAMPO BELO-MG",
+      "cep": "37270-000"
     }
   ]
 }
