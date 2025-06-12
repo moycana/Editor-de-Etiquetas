@@ -134,6 +134,15 @@
       "endereco": "SÍTIO SANTO ANTONIO - NR SN PATRÍCIOS",
       "cidade": "CAMPO BELO-MG",
       "cep": "37270-000"
+    },
+    {
+      "id": "TRANSPORTADORA MOYCANA/TRANSDELLAS",
+      "ac": "ALCIONE BRAGA",
+      "tipo": "COMPROVANTE DE ENTREGA",
+      "nome": "TRANSPORTADORA MOYCANA/TRANSDELLAS",
+      "endereco": "RUA ESCUMILHA, 60, GALPAO 3 E 4 - ARVOREDO",
+      "cidade": "CONTAGEM-MG",
+      "cep": "32113-260"
     }
   ]
 }
