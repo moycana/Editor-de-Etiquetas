@@ -136,7 +136,7 @@ async function gerarPDFComImagemNaPosicao(posicao) {
     const alturaEtiqueta = 49; // mm
     const etiquetasPorLinha = 1;
     const espacamentoHorizontal = 0;
-    const espacamentoVertical = 5;
+    const espacamentoVertical = 1;
     const margemEsquerda = 30;
     const margemSuperior = 26.8;
 
