@@ -2,7 +2,7 @@
   "clientes": [
     {
       "id": "BETANIA BA",
-      "ac": "LOGISTICA",
+      "ac": " A/C LOGISTICA – ",
       "tipo": "COMPROVANTES DE ENTREGA",
       "nome": "BETANIA LACTEOS S/A",
       "endereco": "AV JULIO JOSE RODRIGUES, 750. BAIRRO CLEOLANDIA",
@@ -11,7 +11,7 @@
     },
     {
       "id": "ALVOAR NORDESTE",
-      "ac": "LOGISTICA",
+      "ac": " A/C LOGISTICA – ",
       "tipo": "COMPROVANTES DE ENTREGA",
       "nome": "ALVOAR LACTEOS NORDESTE S/A",
       "endereco": "SITIO ALTO DA GLORIA, S/N, ZONA RURAL",
@@ -20,7 +20,7 @@
     },
     {
       "id": "ALVOAR CONTAGEM",
-      "ac": "LOGISTICA",
+      "ac": "A/C LOGISTICA – ",
       "tipo": "COMPROVANTES DE ENTREGA",
       "nome": "ALVOAR LACTEOS S/A",
       "endereco": "RUA JOSE PERMINIO DA SILVIA 230. BAIRRO CINCO",
@@ -29,7 +29,7 @@
     },
     {
       "id": "BETANIA CE",
-      "ac": "LOGISTICA",
+      "ac": "A/C LOGISTICA – ",
       "tipo": "COMPROVANTES DE ENTREGA",
       "nome": "BETANIA LATICINIOS S/A CE",
       "endereco": "CE 046 ROD DO CONTORNO, SN, PLANALTO AEROPORTO",
@@ -38,7 +38,7 @@
     },
     {
       "id": "ITAMBE GUANHAES",
-      "ac": "KENIA ",
+      "ac": "A/C KENIA – ",
       "tipo": "COMPROVANTES DE ENTREGA",
       "nome": "ITAMBÉ ALIMENTOS ",
       "endereco": "AV GOVERNADOR MILTON CAMPOS 921. CENTRO",
@@ -47,7 +47,7 @@
     },
     {
       "id": "ITAMBE CABO DE SANTO AGOSTINHO",
-      "ac": "LOGISTICA",
+      "ac": "A/C LOGISTICA – ",
       "tipo": "COMPROVANTES DE ENTREGA",
       "nome": "ITAMBÉ ALIMENTOS ",
       "endereco": "ROD BR 101 SUL BL D DISTRITO INDUSTRIAL, ST. ESTEVÃO",
@@ -56,7 +56,7 @@
     },
     {
       "id": "ITAMBE PM",
-      "ac": "ELIENY PIRES",
+      "ac": "A/C ELIENY PIRES – ",
       "tipo": "COMPROVANTES DE ENTREGA",
       "nome": "ITAMBÉ ALIMENTOS PARA DE MINAS ",
       "endereco": "RODOVIA BR 262 ANEXO S/N, PATAFUFO",
@@ -65,7 +65,7 @@
     },
     {
       "id": "ITAMBE SETE LAGOAS",
-      "ac": "RAFAEL OLIVEIRA",
+      "ac": "A/C RAFAEL OLIVEIRA – ",
       "tipo": "COMPROVANTES DE ENTREGA ",
       "nome": "ITAMBÉ ALIMENTOS ",
       "endereco": "RUA JOAO ANDRADE 20 SÃO GERALDO",
@@ -74,7 +74,7 @@
     },
     {
       "id": "ITAMBE ULA",
-      "ac": "LOGISTICA",
+      "ac": "A/C LOGISTICA – ",
       "tipo": "COMPROVANTES DE ENTREGA ",
       "nome": "ITAMBÉ ALIMENTOS ",
       "endereco": "RUA LINEU ANTERINO MARIANO 280, DISTRITO INDUSTRIAL",
@@ -83,7 +83,7 @@
     },
     {
       "id": "NORSAL",
-      "ac": "LOGISTICA",
+      "ac": "A/C LOGISTICA – ",
       "tipo": "COMPROVANTE DE ENTREGA ",
       "nome": "NORTE SALINEIRA od. Br 110 – KM 01",
       "endereco": "ZONA SUBURBANA",
@@ -92,7 +92,7 @@
     },
     {
       "id": "ITAMBE SP",
-      "ac": "SILVANA GONÇALVES",
+      "ac": "A/C SILVANA GONÇALVES – ",
       "tipo": "RECIBOS DE DESCARGA E DIARIAS",
       "nome": "ITAMBE ALIMENTOS - TRANSPORTES E FRETES",
       "endereco": "RODOVIA ANHANGUERA, KM 26,5. JARAGUA",
@@ -101,7 +101,7 @@
     },
     {
       "id": "PORTO ",
-      "ac": "BRUNA / TAMIRES",
+      "ac": "A/C BRUNA / TAMIRES – ",
       "tipo": "COMPROVANTES DE ENTREGA ",
       "nome": "LATICINIOS PORTO ALEGRE",
       "endereco": "AV MARIO MARTINS FREITAS 6000 A. ANNA FLORENCIA",
@@ -110,7 +110,7 @@
     },
     {
       "id": "ITAMBE ES",
-      "ac": "TAMIRES MEDEIROS",
+      "ac": "A/C TAMIRES MEDEIROS – ",
       "tipo": "COMPROVANTES DE ENTREGA",
       "nome": "ITAMBE ALIMENTOS - LOGISTICA TSPF – ESPIRITO SANTO",
       "endereco": "RUA AMARILIS, 130, SALA 2, GALPAO 3. PORTO DE CARIACICA",
@@ -119,7 +119,7 @@
     },
     {
       "id": "ITAMBE MARACANAU",
-      "ac": "DAVID SANTOS / LOGISTICA E FATURAMENTO",
+      "ac": "A/C DAVID SANTOS / LOGISTICA E FATURAMENTO – ",
       "tipo": "COMPROVANTE DE ENTREGA",
       "nome": "ITAMBE MARACANAU",
       "endereco": "TRAVESSA 14, 1161 – ALTO ALEGRE II",
@@ -128,7 +128,7 @@
     },
     {
       "id": "NOVA MIX",
-      "ac": "MOISES",
+      "ac": "A/C MOISES – ",
       "tipo": "COMPROVANTE DE ENTREGA",
       "nome": "NOVA MIX INDUSTRIA E COMERCIO LTDA",
       "endereco": "SÍTIO SANTO ANTONIO - NR SN PATRÍCIOS",
@@ -137,9 +137,9 @@
     },
     {
       "id": "TRANSPORTADORA MOYCANA/TRANSDELLAS",
-      "ac": "ALCIONE BRAGA",
-      "tipo": "COMPROVANTE DE ENTREGA",
-      "nome": "TRANSPORTADORA MOYCANA/TRANSDELLAS",
+      "ac": " ",
+      "tipo": "TRANSPORTADORA MOYCANA/TRANSDELLAS",
+      "nome": "",
       "endereco": "RUA ESCUMILHA, 60, GALPAO 3 E 4 - ARVOREDO",
       "cidade": "CONTAGEM-MG",
       "cep": "32113-260"
