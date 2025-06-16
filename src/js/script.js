@@ -1,6 +1,6 @@
 let clientesData = [];
 
-fetch('../src/data/clientes.json?v=1.0.3')
+fetch('../src/data/clientes.json')
     .then(response => response.json())
     .then(data => {
         clientesData = data.clientes;
