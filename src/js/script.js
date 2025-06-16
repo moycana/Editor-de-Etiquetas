@@ -1,6 +1,6 @@
 let clientesData = [];
 
-fetch('src/data/clientes.json')
+fetch('../src/data/clientes.json?v=1.0.3')
     .then(response => response.json())
     .then(data => {
         clientesData = data.clientes;
@@ -26,16 +26,11 @@ fetch('src/data/clientes.json')
 document.getElementById('dropdownClientes').addEventListener('change', function() {
     const nomeSelecionado = this.value;
     const cliente = clientesData.find(c => c.id === nomeSelecionado);
-    const texto = `
-            <strong>A/C ${cliente.ac} – ${cliente.tipo}</strong><br>
-            ${cliente.nome}<br>
-            ${cliente.endereco}<br>
-            ${cliente.cidade} CEP: ${cliente.cep}
-            <br><br>Declaro receber os seguintes canhotos:
-            `;
-
-    document.getElementById('dados-etiqueta').innerHTML = texto;
+    if (cliente) {
+        atualizarEtiqueta(cliente);
+    }
 });
+
 
 function gerarEtiqueta() {
     //const data = document.getElementById('data').value;
@@ -165,8 +160,37 @@ textoArea.addEventListener('input', gerarEtiqueta);
 
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", () => {
-    navigator.serviceWorker.register("/Editor-de-Etiquetas/service-worker.js")
+    navigator.serviceWorker.register("/service-worker.js")
       .then(reg => console.log("Service Worker registrado:", reg.scope))
       .catch(err => console.log("Erro ao registrar Service Worker:", err));
   });
 }
+
+function atualizarEtiqueta(cliente) {
+    const incluirDeclaracao = document.getElementById('checkboxDeclaracao').checked;
+
+    const texto = `
+        <strong>${cliente.ac} ${cliente.tipo}</strong><br>
+        ${cliente.nome}<br>
+        ${cliente.endereco}<br>
+        ${cliente.cidade} CEP: ${cliente.cep}
+        ${incluirDeclaracao ? "<br><br>Declaro receber os seguintes canhotos:" : ""}
+    `;
+
+    document.getElementById('dados-etiqueta').innerHTML = texto;
+
+    // Mostra ou esconde a tabela de canhotos conforme o checkbox
+    document.getElementById('tabela-canhotos').style.display = incluirDeclaracao ? 'block' : 'none';
+
+    // Altera o tamanho da fonte com base na checkbox
+    const content = document.getElementById('content');
+    content.style.fontSize = incluirDeclaracao ? '16px' : '20px'; // ou maior se quiser
+}
+
+document.getElementById('checkboxDeclaracao').addEventListener('change', () => {
+    const nomeSelecionado = document.getElementById('dropdownClientes').value;
+    const cliente = clientesData.find(c => c.id === nomeSelecionado);
+    if (cliente) {
+        atualizarEtiqueta(cliente);
+    }
+});
