@@ -143,6 +143,15 @@
       "endereco": "RUA ESCUMILHA, 60, GALPAO 3 E 4 - ARVOREDO",
       "cidade": "CONTAGEM-MG",
       "cep": "32113-260"
+    },
+    {
+      "id": "ITAMBÉ CONTAGEM",
+      "ac": "A/C FERNANDA SANTOS / LOGISTICA CD CONTAGEM – ",
+      "tipo": "COMPROVANTE DE ENTREGA",
+      "nome": "ITAMBE MARACANAU",
+      "endereco": "COND. MRV – RUA SIMÃO ANTONIO, 149 LOG 1 GALPÃP 3",
+      "cidade": "CONTAGEM-MG ",
+      "cep": "32371-610"
     }
   ]
 }
