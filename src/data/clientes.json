@@ -152,6 +152,15 @@
       "endereco": "COND. MRV – RUA SIMÃO ANTONIO, 149 LOG 1 GALPÃP 3",
       "cidade": "CONTAGEM-MG ",
       "cep": "32371-610"
+    },
+    {
+      "id": "LATICINIOS BELA VISTA LTDA",
+      "ac": "A/C KENIA PASSOS / LATICINIOS BELA VISTA LTDA – ",
+      "tipo": "COMPROVANTE DE ENTREGA",
+      "nome": "RUA BOM JD QD C4 LT 2, Nº 201",
+      "endereco": "RESIDENCIAL ALPHAVILLE FLAMBOYANT",
+      "cidade": "GOIANIA-GO ",
+      "cep": "74884-552"
     }
   ]
 }
